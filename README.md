@@ -9,7 +9,7 @@ For Python execution of a programm runs like this:
 * first everything is tokenized (in Python you can do this with module "tokenize", written in C)
 * then your code is parsed with given tokens using the grammar and syntax of Python which helps to build abstract syntax tree (modules "parser" + "token")
 * now your computer can run this code using tree, for languages as C, Go ... computer will compile it to machine code
-* for Python, it will be complied to byte-code (the difference is, that it will be ran not by your machine, but by virtual machine (in this project we will create one))
+* for Python, it will be translated to byte-code (the difference is, that it will be ran not by your machine, but by virtual machine (in this project we will create one))
 
 
 As you know Python has exac and eval methods, which can execute the dynamically created programm, which is either a string or a code object. 
